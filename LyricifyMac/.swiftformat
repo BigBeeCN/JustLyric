@@ -1,0 +1,16 @@
+# swiftformat 默认配置（S0 §6 通用 DoD：swiftformat 通过）
+--swiftversion 5.10
+--indent 4
+--indentcase false
+--ifdef no-indent
+--maxwidth 120
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--stripunusedargs closure-only
+--self remove
+--importgrouping testable-bottom
+--trailingcommas always
+--decimalgrouping 3,6
+--void-type void
+--disable blankLinesAtEndOfScope

@@ -1,0 +1,17 @@
+<tt xmlns="http://www.w3.org/ns/ttml">
+  <head>
+    <metadata>
+      <agent type="person" role="l" xml:id="agent-lyricist"><name>合成作词甲</name></agent>
+      <agent type="person" role="c" xml:id="agent-composer"><name>合成作曲乙</name></agent>
+    </metadata>
+  </head>
+  <body>
+    <div>
+      <p begin="00:00.000" end="00:03.000">
+        <span begin="00:00.000" end="00:01.500">词一</span>
+        <span begin="00:01.500" end="00:03.000">词二</span>
+        <span role="x-translation" begin="00:00.000" end="00:03.000">合成译文行</span>
+      </p>
+    </div>
+  </body>
+</tt>

@@ -1,0 +1,19 @@
+{
+  "endingLines" : 0,
+  "isInstrumental" : false,
+  "language" : [
+
+  ],
+  "lines" : [
+    {
+      "alignment" : "center",
+      "isBackgroundVocal" : false,
+      "text" : "纯音乐，请欣赏"
+    }
+  ],
+  "offsetMs" : 0,
+  "raw" : "纯音乐，请欣赏\n",
+  "source" : "unknown",
+  "syncLevel" : "unsynced",
+  "titleLines" : 0
+}

@@ -1,0 +1,63 @@
+{
+  "endingLines" : 0,
+  "isInstrumental" : false,
+  "language" : [
+
+  ],
+  "lines" : [
+    {
+      "alignment" : "center",
+      "endMs" : 3000,
+      "isBackgroundVocal" : false,
+      "startMs" : 0,
+      "syllables" : [
+        {
+          "durationMs" : 300,
+          "startMs" : 0,
+          "text" : "第一"
+        },
+        {
+          "durationMs" : 400,
+          "startMs" : 300,
+          "text" : "行歌"
+        },
+        {
+          "durationMs" : 600,
+          "startMs" : 700,
+          "text" : "词"
+        }
+      ],
+      "text" : "第一行歌词"
+    },
+    {
+      "alignment" : "center",
+      "endMs" : 7000,
+      "isBackgroundVocal" : false,
+      "startMs" : 4000,
+      "syllables" : [
+        {
+          "durationMs" : 500,
+          "startMs" : 4000,
+          "text" : "第二"
+        },
+        {
+          "durationMs" : 500,
+          "startMs" : 4500,
+          "text" : "行歌"
+        },
+        {
+          "durationMs" : 500,
+          "startMs" : 5000,
+          "text" : "词"
+        }
+      ],
+      "text" : "第二行歌词"
+    }
+  ],
+  "offsetMs" : 0,
+  "raw" : "{\"t\":1,\"c\":[{\"tx\":\"合成作词甲\"},{\"tx\":\"合成作曲乙\"}]}\n[0,3000](0,300,2)第一(300,400,2)行歌(700,600,1)词\n[4000,3000](0,500,2)第二(500,500,2)行歌(1000,500,1)词\n",
+  "source" : "yrc",
+  "syncLevel" : "syllableSynced",
+  "titleLines" : 0,
+  "writer" : "合成作词甲、合成作曲乙"
+}

@@ -1,0 +1,62 @@
+{
+  "endingLines" : 0,
+  "isInstrumental" : false,
+  "language" : [
+
+  ],
+  "lines" : [
+    {
+      "alignment" : "center",
+      "endMs" : 3000,
+      "isBackgroundVocal" : false,
+      "startMs" : 0,
+      "subLine" : {
+        "alignment" : "center",
+        "endMs" : 2500,
+        "isBackgroundVocal" : false,
+        "startMs" : 0,
+        "syllables" : [
+          {
+            "durationMs" : 500,
+            "startMs" : 0,
+            "text" : "背景"
+          },
+          {
+            "durationMs" : 500,
+            "startMs" : 500,
+            "text" : "人声"
+          },
+          {
+            "durationMs" : 500,
+            "startMs" : 1000,
+            "text" : "词"
+          }
+        ],
+        "text" : "背景人声词"
+      },
+      "syllables" : [
+        {
+          "durationMs" : 500,
+          "startMs" : 0,
+          "text" : "第一"
+        },
+        {
+          "durationMs" : 500,
+          "startMs" : 500,
+          "text" : "行歌"
+        },
+        {
+          "durationMs" : 500,
+          "startMs" : 1000,
+          "text" : "词"
+        }
+      ],
+      "text" : "第一行歌词"
+    }
+  ],
+  "offsetMs" : 0,
+  "raw" : "[3](0,3000)第一(0,500)行歌(500,500)词(1000,500)\n[6](0,2500)背景(0,500)人声(500,500)词(1000,500)\n",
+  "source" : "lyricifySyllable",
+  "syncLevel" : "syllableSynced",
+  "titleLines" : 0
+}

@@ -1,0 +1,47 @@
+{
+  "endingLines" : 0,
+  "isInstrumental" : false,
+  "language" : [
+
+  ],
+  "lines" : [
+    {
+      "alignment" : "center",
+      "isBackgroundVocal" : false,
+      "startMs" : 5000,
+      "text" : "第一行合成歌词"
+    },
+    {
+      "alignment" : "center",
+      "isBackgroundVocal" : false,
+      "startMs" : 10000,
+      "text" : "多时间戳合成行"
+    },
+    {
+      "alignment" : "center",
+      "isBackgroundVocal" : false,
+      "startMs" : 20000,
+      "text" : "多时间戳合成行"
+    },
+    {
+      "alignment" : "center",
+      "isBackgroundVocal" : false,
+      "startMs" : 15000,
+      "text" : "第三行合成歌词"
+    }
+  ],
+  "offsetMs" : 100,
+  "raw" : "[ar:合成歌手甲]\n[al:合成专辑乙]\n[ti:合成曲名丙]\n[by:合成制作者丁]\n[length:00:30]\n[offset:100]\n[00:05.00]第一行合成歌词\n[00:10.00][00:20.00]多时间戳合成行\n[00:15.00]第三行合成歌词\n",
+  "source" : "lrc",
+  "syncLevel" : "lineSynced",
+  "titleLines" : 0,
+  "trackMeta" : {
+    "album" : "合成专辑乙",
+    "artists" : [
+      "合成歌手甲"
+    ],
+    "durationMs" : 30000,
+    "title" : "合成曲名丙"
+  },
+  "writer" : "合成制作者丁"
+}

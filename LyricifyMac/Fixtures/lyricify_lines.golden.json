@@ -1,0 +1,28 @@
+{
+  "endingLines" : 0,
+  "isInstrumental" : false,
+  "language" : [
+
+  ],
+  "lines" : [
+    {
+      "alignment" : "center",
+      "endMs" : 3000,
+      "isBackgroundVocal" : false,
+      "startMs" : 0,
+      "text" : "第一行合成文本"
+    },
+    {
+      "alignment" : "center",
+      "endMs" : 7000,
+      "isBackgroundVocal" : false,
+      "startMs" : 4000,
+      "text" : "第二行合成文本"
+    }
+  ],
+  "offsetMs" : 0,
+  "raw" : "[type:LyricifyLines]\n[0,3000]第一行合成文本\n[4000,7000]第二行合成文本\n",
+  "source" : "lyricifyLines",
+  "syncLevel" : "lineSynced",
+  "titleLines" : 0
+}

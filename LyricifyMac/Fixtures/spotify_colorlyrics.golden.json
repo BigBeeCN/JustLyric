@@ -1,0 +1,53 @@
+{
+  "additionalInfo" : {
+    "alternatives" : [
+      {
+        "isRtlLanguage" : false,
+        "language" : "zh",
+        "lines" : [
+          "替代背景人声一",
+          "替代背景人声二"
+        ]
+      }
+    ],
+    "syncType" : "SYLLABLE_SYNCED"
+  },
+  "endingLines" : 0,
+  "isInstrumental" : false,
+  "language" : [
+
+  ],
+  "lines" : [
+    {
+      "alignment" : "center",
+      "endMs" : 3000,
+      "isBackgroundVocal" : false,
+      "startMs" : 0,
+      "syllables" : [
+        {
+          "durationMs" : 1500,
+          "startMs" : 0,
+          "text" : "词一"
+        },
+        {
+          "durationMs" : 1500,
+          "startMs" : 1500,
+          "text" : "词二"
+        }
+      ],
+      "text" : "词一词二"
+    },
+    {
+      "alignment" : "center",
+      "endMs" : 7000,
+      "isBackgroundVocal" : false,
+      "startMs" : 4000,
+      "text" : "第三行合成词"
+    }
+  ],
+  "offsetMs" : 0,
+  "raw" : "{\n  \"lyrics\": {\n    \"syncType\": \"SYLLABLE_SYNCED\",\n    \"lines\": [\n      {\n        \"startTimeMs\": \"0\",\n        \"endTimeMs\": \"3000\",\n        \"words\": \"词一词二\",\n        \"syllables\": [\n          { \"startTimeMs\": \"0\", \"endTimeMs\": \"1500\", \"numChars\": \"2\" },\n          { \"startTimeMs\": \"1500\", \"endTimeMs\": \"3000\", \"numChars\": \"2\" }\n        ]\n      },\n      {\n        \"startTimeMs\": \"4000\",\n        \"endTimeMs\": \"7000\",\n        \"words\": \"第三行合成词\",\n        \"syllables\": []\n      }\n    ],\n    \"alternatives\": [\n      {\n        \"language\": \"zh\",\n        \"lines\": [\"替代背景人声一\", \"替代背景人声二\"],\n        \"isRtlLanguage\": false\n      }\n    ],\n    \"language\": \"zh\",\n    \"isRtlLanguage\": false,\n    \"fullscreenAction\": \"FULLSCREEN_LYRICS\"\n  },\n  \"colors\": { \"background\": 0, \"text\": 16777215, \"highlightText\": 16777215 },\n  \"hasVocalRemoval\": false\n}\n",
+  "source" : "spotifyColorLyrics",
+  "syncLevel" : "syllableSynced",
+  "titleLines" : 0
+}

@@ -1,0 +1,34 @@
+{
+  "lyrics": {
+    "syncType": "SYLLABLE_SYNCED",
+    "lines": [
+      {
+        "startTimeMs": "0",
+        "endTimeMs": "3000",
+        "words": "词一词二",
+        "syllables": [
+          { "startTimeMs": "0", "endTimeMs": "1500", "numChars": "2" },
+          { "startTimeMs": "1500", "endTimeMs": "3000", "numChars": "2" }
+        ]
+      },
+      {
+        "startTimeMs": "4000",
+        "endTimeMs": "7000",
+        "words": "第三行合成词",
+        "syllables": []
+      }
+    ],
+    "alternatives": [
+      {
+        "language": "zh",
+        "lines": ["替代背景人声一", "替代背景人声二"],
+        "isRtlLanguage": false
+      }
+    ],
+    "language": "zh",
+    "isRtlLanguage": false,
+    "fullscreenAction": "FULLSCREEN_LYRICS"
+  },
+  "colors": { "background": 0, "text": 16777215, "highlightText": 16777215 },
+  "hasVocalRemoval": false
+}

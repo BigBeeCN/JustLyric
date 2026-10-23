@@ -1,0 +1,16 @@
+# F0-4 CI（D54）：构建+测试+swiftformat lint+红线扫描
+name: CI
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: 红线扫描（push 门禁）
+        run: ./tools/redline-scan.sh LyricifyMac
+      - name: swiftformat lint
+        run: brew install swiftformat >/dev/null 2>&1 && cd LyricifyMac && swiftformat --lint .
+      - name: swift build
+        run: cd LyricifyMac && swift build
+      - name: swift test
+        run: cd LyricifyMac && swift test
